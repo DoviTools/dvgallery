@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1048022114838",
+    "firebase_url": "https://dv-gallery.firebaseio.com",
+    "project_id": "dv-gallery",
+    "storage_bucket": "dv-gallery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048022114838:android:7700bdcbf8302299a60b37",
+        "android_client_info": {
+          "package_name": "dv.gallery.photos.album.photoeditor.fotos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048022114838-d9vlonq8dp0ljil9jvqv171bs60k3n7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2AV0bqyvKlU_V4tQauCqF2tBDhr0RiM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048022114838-d9vlonq8dp0ljil9jvqv171bs60k3n7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

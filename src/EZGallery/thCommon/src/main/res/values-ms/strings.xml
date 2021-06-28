@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">Maklum balas</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">Adakah anda suka %s?</string>
+    <string name="th_dialog_msg_rate_stars">Berikan maklum balas kepada kami, kami akan cuba yang terbaik untuk menambahbaik aplikasi!</string>
+    <string name="th_dialog_msg_rate_stars_5_stars">Terima kasih banyak-banyak, sila nilaikan bintang untuk menggalakkan kami!</string>
+    <string name="th_toast_rate_stars_not_rated">Sila ketik bintang untuk nilaikan.</string>
+    <string name="submit">Hantar</string>
+</resources>

@@ -1,0 +1,6 @@
+[submodule "import/GestureViews"]
+	path = import/GestureViews
+	url = https://github.com/MobCoolGames/GestureViews.git
+[submodule "import/SubsamplingScaleImageView"]
+	path = import/SubsamplingScaleImageView
+	url = https://github.com/MobCoolGames/subsampling-scale-image-view.git

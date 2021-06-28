@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">التعليقات</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">هل أعجبك %s؟</string>
+    <string name="th_dialog_msg_rate_stars">قدم لنا الملاحظات، وسنبذل أقصى جهدنا لتحسين التطبيق!</string>
+    <string name="th_dialog_msg_rate_stars_5_stars">شكرًا جزيلاً، يُرجى التقييم باستخدام النجوم لتشجعينا!</string>
+    <string name="th_toast_rate_stars_not_rated">يُرجى النقر على النجوم للتقييم.</string>
+    <string name="submit">إرسال</string>
+</resources>

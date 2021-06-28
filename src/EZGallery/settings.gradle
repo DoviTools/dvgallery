@@ -1,0 +1,7 @@
+include ':ezGallery', ':common', ':thCommon'
+
+include ':GestureViews'
+project(':GestureViews').projectDir = new File(settingsDir, '../../import/GestureViews/library')
+
+include ':SubsamplingScaleImageView'
+project(':SubsamplingScaleImageView').projectDir = new File(settingsDir, '../../import/SubsamplingScaleImageView/library')

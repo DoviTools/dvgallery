@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">Обратная связь</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">Вам нравится %s?</string>
+    <string name="th_dialog_msg_rate_stars">Оставьте отзыв. Мы постараемся улучшить приложение!</string>
+    <string name="th_dialog_msg_rate_stars_5_stars">Большое спасибо. Поставьте оценку, чтобы поощрить нас!</string>
+    <string name="th_toast_rate_stars_not_rated">Чтобы поставить оценку, коснитесь звезд.</string>
+    <string name="submit">Отправить</string>
+</resources>

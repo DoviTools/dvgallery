@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+
+    <color name="th_bg_ripple_h">#ffe3e3e5</color>
+    <color name="th_text_dark">#ff424242</color>
+</resources>

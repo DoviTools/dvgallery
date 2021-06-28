@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">คำติชม</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">คุณชอบ %s หรือไม่</string>
+    <string name="th_dialog_msg_rate_stars">ให้คำติชมแก่เรา เราจะพยายามอย่างดีที่สุดเพื่อปรับปรุงแอป!</string>
+    <string name="th_dialog_msg_rate_stars_5_stars">ขอบคุณมาก โปรดให้คะแนนดาวเพื่อให้กำลังใจเรา!</string>
+    <string name="th_toast_rate_stars_not_rated">โปรดแตะดาวเพื่อให้คะแนน</string>
+    <string name="submit">ส่ง</string>
+</resources>

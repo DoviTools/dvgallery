@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_expression"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="#f8e435"
+            app:srcCompat="@drawable/th_img_vector_star5" />
+
+        <ImageView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/th_bg_ripple_select"
+            android:src="@drawable/th_title_button_close"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/th_text_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/th_dialog_title_rate_stars" />
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lines="2"
+                android:text="@string/th_dialog_msg_rate_stars"
+                android:textColor="@color/th_text_dark"
+                android:textSize="15sp" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/ratingBar"
+                style="@style/Widget.MaterialRatingBar.RatingBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:stepSize="1"
+                app:mrb_fillBackgroundStars="true"
+                app:mrb_progressBackgroundTint="#cccccc"
+                app:mrb_progressTint="#f8e435" />
+
+            <Button
+                android:id="@+id/btn_primary"
+                style="@style/th_button"
+                android:text="@string/submit" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

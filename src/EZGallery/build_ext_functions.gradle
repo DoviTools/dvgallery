@@ -1,0 +1,70 @@
+
+def getPasswordOnMacOs(String currentUser, String keyInKeyChain) {
+    def stdout = new ByteArrayOutputStream()
+    def stderr = new ByteArrayOutputStream()
+    def keychainExec = exec {
+        commandLine 'security', '-q', 'find-generic-password', '-a', currentUser, '-gl', keyInKeyChain
+        standardOutput = stdout
+        errorOutput = stderr
+        ignoreExitValue true
+    }
+
+    if (keychainExec.exitValue != 0) {
+        println stdout.toString()
+
+        println stderr.toString()
+        return
+    }
+
+    (stderr.toString().trim() =~ /password: "(.*)"/)[0][1]
+}
+
+def getPasswordOnLinux(String attribute, String value) {
+    def stdout = new ByteArrayOutputStream()
+    def stderr = new ByteArrayOutputStream()
+    def keychainExec = exec {
+        commandLine 'secret-tool', 'lookup', attribute, value
+        standardOutput = stdout
+        errorOutput = stderr
+        ignoreExitValue true
+    }
+
+    if (keychainExec.exitValue != 0) {
+        println stdout.toString()
+        println stderr.toString()
+        return
+    }
+
+    stdout.toString()
+}
+
+def getKeystorePassword() {
+    def os_name = System.properties['os.name'].toLowerCase()
+    if (os_name.contains('mac os')) {
+        return getPasswordOnMacOs(System.getenv("USER"), 'ANDROID_DV_GALLERY_STORE_PWD')
+
+    } else if (os_name.contains('linux')) {
+        return getPasswordOnLinux('ANDROID_DV_GALLERY_STORE_PWD', 'android_dv_gallery_store_pwd')
+
+    } else {
+//        throw new IllegalStateException('Unsupported OS: ' + os_name)
+    }
+}
+
+def getKeyPassword() {
+    def os_name = System.properties['os.name'].toLowerCase()
+    if (os_name.contains('mac os')) {
+        return getPasswordOnMacOs(System.getenv("USER"), 'ANDROID_DV_GALLERY_KEY_PWD')
+
+    } else if (os_name.contains('linux')) {
+        return getPasswordOnLinux('ANDROID_DV_GALLERY_KEY_PWD', 'android_dv_gallery_key_pwd')
+
+    } else {
+//        throw new IllegalStateException('Unsupported OS: ' + os_name)
+    }
+}
+
+ext {
+    getKeystorePassword = this.&getKeystorePassword
+    getKeyPassword = this.&getKeyPassword
+}

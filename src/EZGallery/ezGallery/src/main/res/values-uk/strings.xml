@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DV Галерея</string>
+    <string name="edit">Редагувати</string>
+    <string name="open_camera">Запустити камеру</string>
+    <string name="hidden">(приховане)</string>
+    <string name="excluded">(виключене)</string>
+    <string name="pin_folder">Закріпити теку</string>
+    <string name="unpin_folder">Відкріпити теку</string>
+    <string name="pin_to_the_top">Закріпити зверху</string>
+    <string name="show_all">Показати вміст усіх тек</string>
+    <string name="all_folders">Усі теки</string>
+    <string name="folder_view">Перемкнути у перегляд за теками</string>
+    <string name="other_folder">Інша тека</string>
+    <string name="show_on_map">Показати на мапі</string>
+    <string name="unknown_location">Невідоме місцерозташування</string>
+    <string name="increase_column_count">Збільшити кількість колонок</string>
+    <string name="reduce_column_count">Зменшити кількість колонок</string>
+    <string name="change_cover_image">Змінити обкладинку</string>
+    <string name="select_photo">Вибрати фото</string>
+    <string name="use_default">Використовувати за-замовчуванням</string>
+    <string name="volume">Об\'єм</string>
+    <string name="brightness">Яскравість</string>
+    <string name="lock_orientation">Закріпити орієнтацію</string>
+    <string name="unlock_orientation">Відкріпити орієнтацію</string>
+    <string name="change_orientation">Змінити орієнтацію</string>
+    <string name="force_portrait">Примусова портретна орієнтація</string>
+    <string name="force_landscape">Примусова ландшафтна орієнтація</string>
+    <string name="use_default_orientation">Орієнтація за-замовчуванням</string>
+    <string name="fix_date_taken">Виправити дату зйомки</string>
+    <string name="fixing">Виправлення…</string>
+    <string name="dates_fixed_successfully">Дати успішно виправлені</string>
+    <string name="share_resized">Поділитися зображенням іншого розміру</string>
+
+    <!-- Filter -->
+    <string name="filter_media">Фільтр мультимедійних файлів</string>
+    <string name="images">Зображення</string>
+    <string name="videos">Відео</string>
+    <string name="gifs">GIF-зображення</string>
+    <string name="raw_images">RAW-зображення</string>
+    <string name="svgs">SVG-зображення</string>
+    <string name="no_media_with_filters">З вибраними фільтрами мультимедійні файли не знайдено.</string>
+    <string name="change_filters_underlined"><u>Змінити фільтри</u></string>
+
+    <!-- Hide / Exclude -->
+    <string name="hide_folder_description">Ця функція приховує теку шляхом додавання в неї файлу \".nomedia\"; це також приховає і підтеки. Ви можете побачити приховані теки, обравши опцію \'Показати приховані елементи\' в \"Налаштуваннях\". Продовжити?</string>
+    <string name="exclude">Виключити</string>
+    <string name="excluded_folders">Виключені теки</string>
+    <string name="manage_excluded_folders">Керування виключеними теками</string>
+    <string name="exclude_folder_description">Ця дія виключить обрані теки з їх підтеками тільки з %s. Керувати виключеними теками можна у \"Налаштуваннях\".</string>
+    <string name="exclude_folder_parent">Виключити батьківську теку натомість?</string>
+    <string name="excluded_activity_placeholder">Виключення тек приховає їх разом з їх підтеками тільки у %s, але вони все ще будуть видимі у інших додатках.\n\nЯкщо ви хочете приховати їх і від інших додатків, використовуйте функцію \"Приховати\".</string>
+    <string name="remove_all">Видалити все</string>
+    <string name="remove_all_description">Видалити всі теки зі списку виключених? Це не видалить теки з пристрою.</string>
+    <string name="hidden_folders">Приховані теки</string>
+    <string name="manage_hidden_folders">Керування прихованими теками</string>
+    <string name="hidden_folders_placeholder">Схоже, у вас немає тек, прихованих за допомогою файлу \".nomedia\".</string>
+
+    <!-- Include folders -->
+    <string name="include_folders">Включені теки</string>
+    <string name="manage_included_folders">Керування включеними теками</string>
+    <string name="add_folder">Додати теку</string>
+    <string name="included_activity_placeholder">Якщо у вас є теки з медіафайлами, але вони не були розпізнані додатком, ви можете додати їх тут вручну.\n\nДодавання елементів сюди не виключить будь-яку іншу теку.</string>
+
+    <!-- Resizing -->
+    <string name="resize">Змінити розмір</string>
+    <string name="resize_and_save">Змінити розмір вибраного і зберегти</string>
+    <string name="width">Ширина</string>
+    <string name="height">Висота</string>
+    <string name="keep_aspect_ratio">Зберігати співвідношення сторін</string>
+    <string name="invalid_values">Введіть допустиму роздільну здатність</string>
+
+    <!-- Editor -->
+    <string name="editor">Редактор</string>
+    <string name="save">Зберегти</string>
+    <string name="rotate">Обернути</string>
+    <string name="path">Шлях</string>
+    <string name="invalid_image_path">Неприпустимий шлях до зображення</string>
+    <string name="image_editing_failed">Не вдалося редагувати зображення</string>
+    <string name="edit_image_with">Редагувати зображення за допомогою:</string>
+    <string name="no_editor_found">Не знайдено редакторів зображень</string>
+    <string name="unknown_file_location">Невідоме розташування файлу</string>
+    <string name="error_saving_file">Не вдалося перезаписати вихідний файл</string>
+    <string name="rotate_left">Обернути ліворуч</string>
+    <string name="rotate_right">Обернути праворуч</string>
+    <string name="rotate_one_eighty">Обернути на 180º</string>
+    <string name="flip">Віддзеркалити</string>
+    <string name="flip_horizontally">Віддзеркалити горизонтально</string>
+    <string name="flip_vertically">Віддзеркалити вертикально</string>
+    <string name="free_aspect_ratio">Вільне</string>                        <!-- available as an option: 1:1, 4:3, 16:9, free -->
+    <string name="other_aspect_ratio">Інше</string>                        <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
+
+    <!-- Set wallpaper -->
+    <string name="simple_wallpaper">Simple Wallpaper</string>
+    <string name="set_as_wallpaper">Встановити як шпалери</string>
+    <string name="set_as_wallpaper_failed">Не вдалося встановити шпалери</string>
+    <string name="set_as_wallpaper_with">Встановити шпалери за допомогою:</string>
+    <string name="setting_wallpaper">Встановлення шпалер…</string>
+    <string name="wallpaper_set_successfully">Шпалери успішно встановлено</string>
+    <string name="portrait_aspect_ratio">Співвідношення сторін в портретній орієнтації</string>
+    <string name="landscape_aspect_ratio">Співвідношення сторін в ландшафтній орієнтації</string>
+    <string name="home_screen">Домашній екран</string>
+    <string name="lock_screen">Екран блокування</string>
+    <string name="home_and_lock_screen">Домашній екран і екран блокування</string>
+
+    <!-- Slideshow -->
+    <string name="slideshow">Слайдшоу</string>
+    <string name="interval">Інтервал (секунди):</string>
+    <string name="include_photos">Включити фото</string>
+    <string name="include_videos">Включити відео</string>
+    <string name="include_gifs">Включити GIF-зображення</string>
+    <string name="random_order">Випадковий порядок</string>
+    <string name="use_fade">Використовувати анімацію затухання</string>
+    <string name="move_backwards">Рухатися назад</string>
+    <string name="loop_slideshow">Зациклити показ слайдів</string>
+    <string name="slideshow_ended">Слайдшоу закінчено</string>
+    <string name="no_media_for_slideshow">Не знайдено медіафайлів для показу у слайдшоу</string>
+    <string name="use_crossfade_animation">Анімувати перехід між елементами</string>
+
+    <!-- View types -->
+    <string name="change_view_type">Змінити тип перегляду</string>
+    <string name="grid">Сітка</string>
+    <string name="list">Список</string>
+    <string name="group_direct_subfolders">Групувати безпосередні підтеки</string>
+
+    <!-- Grouping at media thumbnails -->
+    <string name="group_by">Групувати за…</string>
+    <string name="do_not_group_files">Не групувати файли</string>
+    <string name="by_folder">текою</string>
+    <string name="by_last_modified">останньою зміною</string>
+    <string name="by_date_taken">датою зйомки</string>
+    <string name="by_file_type">типом файлу</string>
+    <string name="by_extension">розширенням</string>
+    <string name="grouping_and_sorting">Зверніть увагу, що групування і сортування - це два окремих поля</string>
+
+    <!-- Widgets -->
+    <string name="folder_on_widget">Тека, що відображається на віджеті:</string>
+    <string name="show_folder_name">Показувати ім\'я теки</string>
+
+    <!-- Settings -->
+    <string name="autoplay_videos">Відтворювати відео автоматично</string>
+    <string name="remember_last_video_position">Запам\'ятовувати місце зупинки перегляду</string>
+    <string name="toggle_filename">Перемкнути відображення імені файлу</string>
+    <string name="loop_videos">Зациклити відео</string>
+    <string name="animate_gifs">Анімувати ескізи GIF-файлів</string>
+    <string name="max_brightness">Максимальна яскравість екрану при повноекранному перегляді медіафайлу</string>
+    <string name="crop_thumbnails">Обрізати ескізи у квадрат</string>
+    <string name="show_thumbnail_video_duration">Показувати тривалість відео</string>
+    <string name="screen_rotation_by">При повноекранному перегляді обертати за…</string>
+    <string name="screen_rotation_system_setting">системними налаштуваннями</string>
+    <string name="screen_rotation_device_rotation">поворотом пристрою</string>
+    <string name="screen_rotation_aspect_ratio">співвідношенням сторін</string>
+    <string name="black_background_at_fullscreen">Чорне тло і рядок стану при повноекранному перегляді</string>
+    <string name="scroll_thumbnails_horizontally">Гортати ескізи горизонтально</string>
+    <string name="hide_system_ui_at_fullscreen">Автоматично приховувати системний інтерфейс при повноекранному перегляді</string>
+    <string name="delete_empty_folders">Видаляти порожні теки після видалення їх вмісту</string>
+    <string name="allow_photo_gestures">Дозволити керування яскравістю фотографій вертикальними жестами</string>
+    <string name="allow_video_gestures">Дозволити керування яскравістю та гучністю відео вертикальними жестами</string>
+    <string name="show_media_count">Показувати кількість файлів у теці на головному екрані</string>
+    <string name="show_extended_details">Показувати розширені подробиці при повноекранному перегляді</string>
+    <string name="manage_extended_details">Керування розширеними подробицями</string>
+    <string name="one_finger_zoom">Дозволити масштабування одним пальцем при повноекранному перегляді</string>
+    <string name="allow_instant_change">Дозволити миттєво змінювати медіафайл натисканням на сторони екрану</string>
+    <string name="allow_deep_zooming_images">Дозволити глибоке масштабування зображень</string>
+    <string name="hide_extended_details">Приховати розширені подробиці, коли рядок стану прихований</string>
+    <string name="show_at_bottom">Показати деякі кнопки дій внизу екрану</string>
+    <string name="show_recycle_bin">Показувати \"Кошик\" на головному екрані</string>
+    <string name="deep_zoomable_images">Глибокомасштабовані зображення</string>
+    <string name="show_highest_quality">Показувати зображення в найвищій можливій якості</string>
+    <string name="show_recycle_bin_last">Показувати \"Кошик\" останнім елементом на головному екрані</string>
+    <string name="allow_down_gesture">Дозволити закриття повноекранного перегляду свайпом згори вниз</string>
+    <string name="allow_one_to_one_zoom">Дозволити масштабування до 1:1 подвійним тапом</string>
+    <string name="open_videos_on_separate_screen">Завжди відкривати відео на окремому екрані з новими горизонтальними жестами</string>
+    <string name="show_notch">Показувати мітку, якщо доступна</string>
+    <string name="allow_rotating_gestures">Дозволити обертання зображень жестами</string>
+    <string name="file_loading_priority">Пріоритет завантаження файлів</string>
+    <string name="speed">Швидкість</string>
+    <string name="compromise">Компроміс</string>
+    <string name="avoid_showing_invalid_files">Запобігати показу пошкоджених файлів</string>
+
+    <!-- Setting sections -->
+    <string name="thumbnails">Ескізи</string>
+    <string name="fullscreen_media">Повноекранний перегляд</string>
+    <string name="extended_details">Розширені подробиці</string>
+    <string name="bottom_actions">Кнопки дій внизу екрану</string>
+
+    <!-- Bottom actions -->
+    <string name="manage_bottom_actions">Керування видимими кнопками дій внизу екрану</string>
+    <string name="toggle_favorite">Перемкнути улюблене</string>
+    <string name="toggle_file_visibility">Перемкнути видимість файлу</string>
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DV Galerie</string>
+    <string name="edit">Upravit</string>
+    <string name="open_camera">Spustit fotoaparát</string>
+    <string name="hidden">(skryto)</string>
+    <string name="excluded">(vyloučeno)</string>
+    <string name="pin_folder">Připnout složku</string>
+    <string name="unpin_folder">Odepnout složku</string>
+    <string name="pin_to_the_top">Připnout nahoru</string>
+    <string name="show_all">Zobrazit obsah všech složek</string>
+    <string name="all_folders">Všechny složky</string>
+    <string name="folder_view">Přepnout na zobrazení složek</string>
+    <string name="other_folder">Jiná složka</string>
+    <string name="show_on_map">Zobrazit na mapě</string>
+    <string name="unknown_location">NDVnámá poloha</string>
+    <string name="increase_column_count">Zvýšit počet sloupců</string>
+    <string name="reduce_column_count">Snížit počet sloupců</string>
+    <string name="change_cover_image">Změnit obal alba</string>
+    <string name="select_photo">Vybrat fotografii</string>
+    <string name="use_default">Použít výchozí</string>
+    <string name="volume">Hlasitost</string>
+    <string name="brightness">Jas</string>
+    <string name="lock_orientation">Uzamknout orientaci</string>
+    <string name="unlock_orientation">Odemknout orientaci</string>
+    <string name="change_orientation">Změnit orientaci</string>
+    <string name="force_portrait">Vynutit orientaci na výšku</string>
+    <string name="force_landscape">Vynutit orientaci na šířku</string>
+    <string name="use_default_orientation">Použít výchozí orientaci</string>
+    <string name="fix_date_taken">Opravit datum vytvoření</string>
+    <string name="fixing">Opravuji…</string>
+    <string name="dates_fixed_successfully">Datumy byly úspěšně opraveny</string>
+    <string name="share_resized">Sdílet verzi se změněnou velikostí</string>
+
+    <!-- Filter -->
+    <string name="filter_media">Filtr médií</string>
+    <string name="images">Obrázky</string>
+    <string name="videos">Videa</string>
+    <string name="gifs">GIFy</string>
+    <string name="raw_images">RAW obrázky</string>
+    <string name="svgs">SVGčka</string>
+    <string name="no_media_with_filters">Se zvolenými filtry nebyly nalDVeny žádné médiální soubory.</string>
+    <string name="change_filters_underlined"><u>Změnit filtry</u></string>
+
+    <!-- Hide / Exclude -->
+    <string name="hide_folder_description">Tato funkce skryje složku včetně podsložek přidáním souboru \'.nomedia\'. Zobrazíte je zvolením možnosti \'Zobrazit skryté položky\' v nastavení. Pokračovat?</string>
+    <string name="exclude">Vyloučit</string>
+    <string name="excluded_folders">Vyloučené složky</string>
+    <string name="manage_excluded_folders">Spravovat vyloučené složky</string>
+    <string name="exclude_folder_description">Tato funkce vyloučí výběr včetně podsložek jen z %s. V nastavení můžete spravovat vyloučené složky.</string>
+    <string name="exclude_folder_parent">Chcete vyloučit nadřazenou složku?</string>
+    <string name="excluded_activity_placeholder">Vyloučené složky budou spolu s podsložkami vyloučeny jen z %s, ostatní aplikace je nadále uvidí.\n\nPokud je chcete skrýt i před ostatními aplikacemi, použijte funkci Skrýt.</string>
+    <string name="remove_all">Odstranit všechny</string>
+    <string name="remove_all_description">Odstranit všechny složky ze sDVnamu vyloučených? Tato operace neodstraní obsah složek.</string>
+    <string name="hidden_folders">Skryté složky</string>
+    <string name="manage_hidden_folders">Spravovat skryté složky</string>
+    <string name="hidden_folders_placeholder">Zdá se, že nemáte žádné složky skryté pomocí souboru \".nomedia\".</string>
+
+    <!-- Include folders -->
+    <string name="include_folders">Přidané složky</string>
+    <string name="manage_included_folders">Spravovat přidané složky</string>
+    <string name="add_folder">Přidat složku</string>
+    <string name="included_activity_placeholder">Pokud máte nějaké složky obsahující média, ale nebyly aplikací nalDVeny, můžete je zde přidat ručně.</string>
+
+    <!-- Resizing -->
+    <string name="resize">Změnit velikost</string>
+    <string name="resize_and_save">Změnit velikost a uložit</string>
+    <string name="width">Šířka</string>
+    <string name="height">Výška</string>
+    <string name="keep_aspect_ratio">Zachovat poměr stran</string>
+    <string name="invalid_values">Prosím zadejte platné rozlišení</string>
+
+    <!-- Editor -->
+    <string name="editor">Editor</string>
+    <string name="save">Uložit</string>
+    <string name="rotate">Otočit</string>
+    <string name="path">Cesta</string>
+    <string name="invalid_image_path">Neplatná cesta</string>
+    <string name="image_editing_failed">Úprava souboru selhala</string>
+    <string name="edit_image_with">Upravit soubor pomocí:</string>
+    <string name="no_editor_found">Nebyl nalDVen žádný editor</string>
+    <string name="unknown_file_location">NDVnámé umístění souboru</string>
+    <string name="error_saving_file">Nepodařilo se přepsat zdrojový soubor</string>
+    <string name="rotate_left">Otočit doleva</string>
+    <string name="rotate_right">Otočit doprava</string>
+    <string name="rotate_one_eighty">Otočit o 180°</string>
+    <string name="flip">Překlopit</string>
+    <string name="flip_horizontally">Překlopit vodorovně</string>
+    <string name="flip_vertically">Překlopit svisle</string>
+    <string name="free_aspect_ratio">Volný</string>                 <!-- available as an option: 1:1, 4:3, 16:9, free -->
+    <string name="other_aspect_ratio">Jiný</string>                <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
+
+    <!-- Set wallpaper -->
+    <string name="simple_wallpaper">Jednoduchá tapeta</string>
+    <string name="set_as_wallpaper">Nastavit jako tapetu</string>
+    <string name="set_as_wallpaper_failed">Nastavení tapety selhalo</string>
+    <string name="set_as_wallpaper_with">Nastavit jako tapetu pomocí:</string>
+    <string name="setting_wallpaper">Nastavuje se tapeta&#8230;</string>
+    <string name="wallpaper_set_successfully">Tapeta byla úspěšně změněna</string>
+    <string name="portrait_aspect_ratio">Poměr stran na výšku</string>
+    <string name="landscape_aspect_ratio">Poměr stran na šířku</string>
+    <string name="home_screen">Domovská obrazovka</string>
+    <string name="lock_screen">Zamykací obrazovka</string>
+    <string name="home_and_lock_screen">Domovská a zamykací obrazovka</string>
+
+    <!-- Slideshow -->
+    <string name="slideshow">PrDVentace</string>
+    <string name="interval">Interval (vteřin):</string>
+    <string name="include_photos">Zahrnout fotografie</string>
+    <string name="include_videos">Zahrnout videa</string>
+    <string name="include_gifs">Zahrnout GIFy</string>
+    <string name="random_order">Náhodné pořadí</string>
+    <string name="use_fade">Použít animaci slábnutí</string>
+    <string name="move_backwards">Jít opačným směrem</string>
+    <string name="loop_slideshow">Opakovat prDVentaci ve smyčce</string>
+    <string name="slideshow_ended">PrDVentace skončila</string>
+    <string name="no_media_for_slideshow">Nebyla nalDVena žádná média pro prDVentaci</string>
+    <string name="use_crossfade_animation">Použít animaci prolnutí</string>
+
+    <!-- View types -->
+    <string name="change_view_type">Změnit typ zobrazení</string>
+    <string name="grid">Mřížka</string>
+    <string name="list">SDVnam</string>
+    <string name="group_direct_subfolders">Sloučit přímé podsložky</string>
+
+    <!-- Grouping at media thumbnails -->
+    <string name="group_by">Seskupit podle</string>
+    <string name="do_not_group_files">Neseskupovat soubory</string>
+    <string name="by_folder">Složky</string>
+    <string name="by_last_modified">Data poslední úpravy</string>
+    <string name="by_date_taken">Data pořízení</string>
+    <string name="by_file_type">Typu souboru</string>
+    <string name="by_extension">Přípony</string>
+    <string name="grouping_and_sorting">Mějte prosím na paměti, že seskupování a řazení jsou 2 nDVávislé hodnoty</string>
+
+    <!-- Widgets -->
+    <string name="folder_on_widget">Složka zobrazená na widgetu:</string>
+    <string name="show_folder_name">Zobrazit název složky</string>
+
+    <!-- Settings -->
+    <string name="autoplay_videos">Přehrávat videa automaticky</string>
+    <string name="remember_last_video_position">Zapamatovat pozici posledního přehraného videa</string>
+    <string name="toggle_filename">Přepnout viditelnost názvů souborů</string>
+    <string name="loop_videos">Přehrávat videa ve smyčce</string>
+    <string name="animate_gifs">Animovat náhledy souborů GIF</string>
+    <string name="max_brightness">Maximální jas obrazovky při zobrazení médií</string>
+    <string name="crop_thumbnails">Oříznout náhledy na čtverce</string>
+    <string name="show_thumbnail_video_duration">Zobrazit dobu trvání videí</string>
+    <string name="screen_rotation_by">Otáčet média na celé obrazovce podle</string>
+    <string name="screen_rotation_system_setting">Systémového nastavení</string>
+    <string name="screen_rotation_device_rotation">Otočení zařízení</string>
+    <string name="screen_rotation_aspect_ratio">Poměru stran</string>
+    <string name="black_background_at_fullscreen">Černé pozadí při médiích na celou obrazovku</string>
+    <string name="scroll_thumbnails_horizontally">Prohlížet miniatury vodorovně</string>
+    <string name="hide_system_ui_at_fullscreen">Automaticky skrývat systémové lišty při celoobrazovkových médiích</string>
+    <string name="delete_empty_folders">Odstranit prázdné složky po smazání jejich obsahu</string>
+    <string name="allow_photo_gestures">Povolit ovládání jasu vertikálními tahy</string>
+    <string name="allow_video_gestures">Povolit ovládání hlasitosti a jasu videí vertikálními tahy</string>
+    <string name="show_media_count">Zobrazit počet médií ve složce na hlavní obrazovce</string>
+    <string name="show_extended_details">Zobrazit rozšířené vlastnosti přes celoobrazovkové média</string>
+    <string name="manage_extended_details">Spravovat rozšířené vlastnosti</string>
+    <string name="one_finger_zoom">Povolit přibližování jedním prstem v celoobrazovkovém režimu</string>
+    <string name="allow_instant_change">Povolit okamžité přepínání médií ťuknutím na okraj obrazovky</string>
+    <string name="allow_deep_zooming_images">Povolit hluboké přibližování obrázků</string>
+    <string name="hide_extended_details">Skrýt rozšířené vlastnosti pokud je skrytá stavová lišta</string>
+    <string name="show_at_bottom">Zobrazit některá akční tlačítka ve spodní části obrazovky</string>
+    <string name="show_recycle_bin">Zobrazit odpadkový koš na obrazovce se složkami</string>
+    <string name="deep_zoomable_images">Hluboce priblížitelné obrázky</string>
+    <string name="show_highest_quality">Zobrazit obrázky v nejlepší možné kvalitě</string>
+    <string name="show_recycle_bin_last">Zobrazit odpadkový koš jako poslední položku na hlavní obrazovce</string>
+    <string name="allow_down_gesture">Povolit zavírání celoobrazovkového režimu tažením prstu dolů</string>
+    <string name="allow_one_to_one_zoom">Povolit přiblížení 1:1 dvojitým poklepáním</string>
+    <string name="open_videos_on_separate_screen">Vždy otevírat videa na vlastní obrazovce s novými vodorovnými gesty</string>
+    <string name="show_notch">Zobrazit výřDV obrazovky pokud je dostupný</string>
+    <string name="allow_rotating_gestures">Povolit otáčení obrázků gesty</string>
+    <string name="file_loading_priority">Priorita načítání obrázků</string>
+    <string name="speed">Rychlost</string>
+    <string name="compromise">Kompromis</string>
+    <string name="avoid_showing_invalid_files">Vyvarovat se zobrazení neplatných souborů</string>
+
+    <!-- Setting sections -->
+    <string name="thumbnails">Náhledy</string>
+    <string name="fullscreen_media">Celoobrazovkový režim</string>
+    <string name="extended_details">Rozšířené vlastnosti</string>
+    <string name="bottom_actions">Spodní akční tlačítka</string>
+
+    <!-- Bottom actions -->
+    <string name="manage_bottom_actions">Upravit viditelné spodní akční tlačítka</string>
+    <string name="toggle_favorite">Přepnutí oblíbenosti</string>
+    <string name="toggle_file_visibility">Přepnutí viditelnosti souboru</string>
+
+</resources>

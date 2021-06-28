@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">Phản hồi</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">%s uygulamasını beğendiniz mi?</string>
+    <string name="th_dialog_msg_rate_stars">Uygulamayı geliştirebilmemiz için bize geri bildirim verin.</string>
+    <string name="th_dialog_msg_rate_stars_5_stars">Teşekkürler, bizi teşvik etmek için bize yıldız verin.</string>
+    <string name="th_toast_rate_stars_not_rated">Değerlendirme için lütfen yıldızların üzerine dokunun.</string>
+    <string name="submit">Gửi</string>
+</resources>

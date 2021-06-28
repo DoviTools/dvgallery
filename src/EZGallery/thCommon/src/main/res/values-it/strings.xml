@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">Feedback</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">Ti piace %s?</string>
+    <string name="th_dialog_msg_rate_stars">Condividi il tuo feedback, faremo del nostro meglio per migliorare l\'app!</string>
+    <string name="th_dialog_msg_rate_stars_5_stars">Grazie mille. Assegna le stelle per incoraggiarci!</string>
+    <string name="th_toast_rate_stars_not_rated">Tocca le stelle per valutare.</string>
+    <string name="submit">Invia</string>
+</resources>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DV Galeria</string>
+    <string name="edit">Edytuj</string>
+    <string name="open_camera">Uruchom aplikację aparatu</string>
+    <string name="hidden">(ukryty)</string>
+    <string name="excluded">(wykluczony)</string>
+    <string name="pin_folder">Przypnij folder</string>
+    <string name="unpin_folder">Odepnij folder</string>
+    <string name="pin_to_the_top">Przypnij na górze</string>
+    <string name="show_all">Pokaż wszystko</string>
+    <string name="all_folders">Wszystkie foldery</string>
+    <string name="folder_view">Przełącz na widok folderów</string>
+    <string name="other_folder">Inny folder</string>
+    <string name="show_on_map">Pokaż na mapie</string>
+    <string name="unknown_location">Nieznana lokalizacja</string>
+    <string name="increase_column_count">Zwiększ liczbę kolumn</string>
+    <string name="reduce_column_count">Zmniejsz liczbę kolumn</string>
+    <string name="change_cover_image">Zmień okładkę</string>
+    <string name="select_photo">Wybierz obraz</string>
+    <string name="use_default">Użyj domyślnej</string>
+    <string name="volume">Głośność</string>
+    <string name="brightness">Jasność</string>
+    <string name="lock_orientation">Zablokuj orientację ekranu</string>
+    <string name="unlock_orientation">Odblokuj orientację ekranu</string>
+    <string name="change_orientation">Zmień orientację ekranu</string>
+    <string name="force_portrait">Wymuś pionową</string>
+    <string name="force_landscape">Wymuś poziomą</string>
+    <string name="use_default_orientation">Używaj systemowej</string>
+    <string name="fix_date_taken">Napraw datę utworzenia</string>
+    <string name="fixing">Naprawiam…</string>
+    <string name="dates_fixed_successfully">Daty zostały naprawione</string>
+    <string name="share_resized">Udostępnij zmienioną wersję</string>
+
+    <!-- Filter -->
+    <string name="filter_media">Filtruj multimedia</string>
+    <string name="images">Obrazy</string>
+    <string name="videos">Filmy</string>
+    <string name="gifs">GIFy</string>
+    <string name="raw_images">Obrazy RAW</string>
+    <string name="svgs">Obrazy SVG</string>
+    <string name="no_media_with_filters">Nie znaleziono multimediów zgodnych z zastosowanymi filtrami.</string>
+    <string name="change_filters_underlined"><u>Zmień filtry</u></string>
+
+    <!-- Hide / Exclude -->
+    <string name="hide_folder_description">Ta funkcja ukrywa foldery, dodając do nich pusty plik \'.nomedia\'. Aby móc je zobaczyć, należy włączyć opcję \'Pokazuj ukryte foldery\' w ustawieniach. Kontynuować?</string>
+    <string name="exclude">Wyklucz</string>
+    <string name="excluded_folders">Wykluczone foldery</string>
+    <string name="manage_excluded_folders">Zarządzaj wykluczonymi folderami</string>
+    <string name="exclude_folder_description">To wyklucza wybór wraz z jego podfolderami tylko z %s. Możesz zarządzać wykluczonymi folderami w Ustawieniach.</string>
+    <string name="exclude_folder_parent">Wykluczyć folder nadrzędny?</string>
+    <string name="excluded_activity_placeholder">Wykluczenie folderów ukryje je tylko w %s, w innych aplikacjach będą one wciąż widoczne.\n\nJeśli chcesz je ukryć także w innych aplikacjach, użyj funkcji ukrywania.</string>
+    <string name="remove_all">Usuń wszystko</string>
+    <string name="remove_all_description">Usunąć wszystkie foldery z listy wykluczonych? Foldery nie zostaną fizycznie usunięte.</string>
+    <string name="hidden_folders">Ukryte foldery</string>
+    <string name="manage_hidden_folders">Zarządzaj ukrytymi folderami</string>
+    <string name="hidden_folders_placeholder">Zdaje się, że nie masz żadnych folderów z plikiem \'.nomedia\'.</string>
+
+    <!-- Include folders -->
+    <string name="include_folders">Dołączone foldery</string>
+    <string name="manage_included_folders">Zarządzaj dołączonymi folderami</string>
+    <string name="add_folder">Dodaj folder</string>
+    <string name="included_activity_placeholder">Jeśli masz jakieś foldery z multimediami, ale aplikacja ich nie wykryła, możesz je dodać ręcznie tutaj.</string>
+
+    <!-- Resizing -->
+    <string name="resize">Zmień rozmiar</string>
+    <string name="resize_and_save">Zmień i zapisz</string>
+    <string name="width">Szerokość</string>
+    <string name="height">Wysokość</string>
+    <string name="keep_aspect_ratio">Zachowaj proporcje</string>
+    <string name="invalid_values">Podaj poprawną rozdzielczość</string>
+
+    <!-- Editor -->
+    <string name="editor">Edycja</string>
+    <string name="save">Zapisz</string>
+    <string name="rotate">Obróć</string>
+    <string name="path">Ścieżka</string>
+    <string name="invalid_image_path">Nieprawidłowa ścieżka</string>
+    <string name="image_editing_failed">Edycja obrazu nie powiodła się</string>
+    <string name="edit_image_with">Edytuj obraz w:</string>
+    <string name="no_editor_found">Nie znalazłem edytora zdjęć</string>
+    <string name="unknown_file_location">Nieznana lokalizacja pliku</string>
+    <string name="error_saving_file">Nie udało się zastąpić pliku</string>
+    <string name="rotate_left">Obróć w lewo</string>
+    <string name="rotate_right">Obróć w prawo</string>
+    <string name="rotate_one_eighty">Obróć o 180 stopni</string>
+    <string name="flip">Przewróć</string>
+    <string name="flip_horizontally">Przewróć w poziomie</string>
+    <string name="flip_vertically">Przewróć w pionie</string>
+    <string name="free_aspect_ratio">Wolne</string>                 <!-- available as an option: 1:1, 4:3, 16:9, free -->
+    <string name="other_aspect_ratio">Inne</string>                 <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
+
+    <!-- Set wallpaper -->
+    <string name="simple_wallpaper">Tapeta</string>
+    <string name="set_as_wallpaper">Ustaw jako tapetę</string>
+    <string name="set_as_wallpaper_failed">Ustawienie tapety nie powiodło się</string>
+    <string name="set_as_wallpaper_with">Ustaw jako tapetę w:</string>
+    <string name="setting_wallpaper">Ustawiam tapetę&#8230;</string>
+    <string name="wallpaper_set_successfully">Tapeta została ustawiona</string>
+    <string name="portrait_aspect_ratio">Proporcje ekranu w trybie pionowym</string>
+    <string name="landscape_aspect_ratio">Proporcje ekranu w trybie poziomym</string>
+    <string name="home_screen">Pulpit</string>
+    <string name="lock_screen">Ekran blokady</string>
+    <string name="home_and_lock_screen">Pulpit i ekran blokady</string>
+
+    <!-- Slideshow -->
+    <string name="slideshow">Pokaz slajdów</string>
+    <string name="interval">Przedział (sekundy):</string>
+    <string name="include_photos">Dołączaj zdjęcia</string>
+    <string name="include_videos">Dołączaj filmy</string>
+    <string name="include_gifs">Dołączaj GIFy</string>
+    <string name="random_order">Losowa kolejność</string>
+    <string name="use_fade">Używaj płynnych przejść</string>
+    <string name="move_backwards">Odwrotna kolejność</string>
+    <string name="loop_slideshow">Zapętlaj</string>
+    <string name="slideshow_ended">Pokaz slajdów zakończony</string>
+    <string name="no_media_for_slideshow">Nie znalazłem multimediów do pokazu slajdów</string>
+    <string name="use_crossfade_animation">Używaj animacji przejścia</string>
+
+    <!-- View types -->
+    <string name="change_view_type">Zmień typ widoku</string>
+    <string name="grid">Siatka</string>
+    <string name="list">Lista</string>
+    <string name="group_direct_subfolders">Grupuj bezpośrednie podfoldery</string>
+
+    <!-- Grouping at media thumbnails -->
+    <string name="group_by">Grupuj według</string>
+    <string name="do_not_group_files">Nie grupuj plików</string>
+    <string name="by_folder">Folderu</string>
+    <string name="by_last_modified">Daty ostatniej modyfikacji</string>
+    <string name="by_date_taken">Daty utworzenia</string>
+    <string name="by_file_type">Typu</string>
+    <string name="by_extension">Rozszerzenia</string>
+    <string name="grouping_and_sorting">Uwaga: grupowanie i sortowanie to dwa niezależne pola</string>
+
+    <!-- Widgets -->
+    <string name="folder_on_widget">Folder wyświetlany na widżecie:</string>
+    <string name="show_folder_name">Pokaż nazwę folderu</string>
+
+    <!-- Settings -->
+    <string name="autoplay_videos">Odtwarzaj filmy automatycznie</string>
+    <string name="remember_last_video_position">Pamiętaj ostatni moment odtwarzania filmów</string>
+    <string name="toggle_filename">Pokazuj / ukrywaj nazwy plików</string>
+    <string name="loop_videos">Zapętlaj odtwarzanie filmów</string>
+    <string name="animate_gifs">Animowane miniatury GIFów</string>
+    <string name="max_brightness">Maksymalna jasność podczas wyświetlania multimediów</string>
+    <string name="crop_thumbnails">Przycinaj miniatury do kwadratów</string>
+    <string name="show_thumbnail_video_duration">Pokazuj czas trwania filmów</string>
+    <string name="screen_rotation_by">Obracaj pełnoekranowe multimedia według</string>
+    <string name="screen_rotation_system_setting">Ustawień systemowych</string>
+    <string name="screen_rotation_device_rotation">Orientacji urządzenia</string>
+    <string name="screen_rotation_aspect_ratio">Proporcji</string>
+    <string name="black_background_at_fullscreen">Czarne tło i pasek stanu przy widoku pełnoekranowym</string>
+    <string name="scroll_thumbnails_horizontally">Przewijaj miniatury poziomo</string>
+    <string name="hide_system_ui_at_fullscreen">Ukrywaj interfejs przy pełnoekranowym podglądzie</string>
+    <string name="delete_empty_folders">Usuwaj puste foldery po usunięciu ich zawartości</string>
+    <string name="allow_photo_gestures">Zezwalaj na kontrolowanie jasności zdjęcia pionowymi gestami</string>
+    <string name="allow_video_gestures">Zezwalaj na kontrolowanie jasności i głośności filmów pionowymi gestami</string>
+    <string name="show_media_count">Pokazuj liczbę elementów w folderach w głównym widoku</string>
+    <string name="show_extended_details">Dodatkowe szczegóły przy podglądzie pełnoekranowym</string>
+    <string name="manage_extended_details">Zarządzaj dodatkowymi szczegółami</string>
+    <string name="one_finger_zoom">Zezwalaj na powiększanie jednym palcem w widoku pełnoekranowym</string>
+    <string name="allow_instant_change">Zezwalaj na natychmiastową zmianę multimediów po kliknięciu boków ekranu</string>
+    <string name="allow_deep_zooming_images">Zezwalaj na duże powiększanie obrazów</string>
+    <string name="hide_extended_details">Ukrywaj dodatkowe szczegóły, gdy pasek stanu jest ukryty</string><![CDATA[
+    
+    ]]>
+    <string name="show_at_bottom">Pokazuj niektóre przyciski akcji na dole ekranu</string>
+    <string name="show_recycle_bin">Pokazuj kosz w widoku folderów</string>
+    <string name="deep_zoomable_images">Duże powiększanie obrazów</string>
+    <string name="show_highest_quality">Pokazuj obrazy w najwyższej możliwej rozdzielczości</string>
+    <string name="show_recycle_bin_last">Pokazuj kosz jako ostatni element na głównym ekranie</string>
+    <string name="allow_down_gesture">Zezwalaj na zamykanie pełnoekranowego widoku gestem pociągnięcia w dół</string>
+    <string name="allow_one_to_one_zoom">Zezwalaj na powiększanie 1:1 dwoma podwójnymi dotknięciami</string>
+    <string name="open_videos_on_separate_screen">Zawsze otwieraj filmy na osobnym ekranie z nowymi poziomymi gestami</string>
+    <string name="show_notch">Pokazuj wcięcie (jeśli dostępne)</string>
+    <string name="allow_rotating_gestures">Zezwalaj na obracanie obrazów gestami</string>
+    <string name="file_loading_priority">Priorytet ładowania plików</string>
+    <string name="speed">Szybkość</string>
+    <string name="compromise">Kompromis</string>
+    <string name="avoid_showing_invalid_files">Unikaj pokazywania niewłaściwych plików</string>
+
+    <!-- Setting sections -->
+    <string name="thumbnails">Miniatury</string>
+    <string name="fullscreen_media">Widok pełnoekranowy</string>
+    <string name="extended_details">Dodatkowe szczegóły</string>
+    <string name="bottom_actions">Przyciski na dolnym pasku</string>
+
+    <!-- Bottom actions -->
+    <string name="manage_bottom_actions">Zarządzaj przyciskami na dolnym pasku</string>
+    <string name="toggle_favorite">Ulubione</string>
+    <string name="toggle_file_visibility">Widoczność plików</string>
+
+   <!-- AboutActivity -->
+   <string name="rate_us_on_play_store">Lubię %s</string>
+   <string name="enjoy_our_product">Ciesząc %s?</string>
+   <string name="contact_us">Skontaktuj się z nami</string>
+   <string name="share">Udostępnij</string>
+   <string name="privacy_policy">Polityka prywatności</string>
+   <string name="share_content">Ta galeria jest tak prosta, lekka i łatwa w użyciu dzięki rozbudowanym funkcjom. Wysoce zalecane! Pobierz link: %s.</string>
+
+   <!-- Initializing -->
+   <string name="initializing_please_wait">Inicjowanie, proszę czekać…</string>
+</resources>

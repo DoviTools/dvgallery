@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DV Gallery</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="open_camera">Άνοιγμα κάμερας</string>
+    <string name="hidden">(κρυφά)</string>
+    <string name="excluded">(εξαιρούνται)</string>
+    <string name="pin_folder">Καρφίτσωμα φακέλου</string>
+    <string name="unpin_folder">Ξεκαρφίτσωμα φακέλου</string>
+    <string name="pin_to_the_top">Καρφίτσωμα στην κορυφή</string>
+    <string name="show_all">Προβολή όλων στο φάκελο</string>
+    <string name="all_folders">Όλοι οι φάκελοι</string>
+    <string name="folder_view">Αλλαγή σε προβολή φακέλων</string>
+    <string name="other_folder">Άλλος φάκελος</string>
+    <string name="show_on_map">Εμφάνιση στο χάρτη</string>
+    <string name="unknown_location">Άγνωστη τοποθεσία</string>
+    <string name="increase_column_count">Αύξηση αριθμού στηλών</string>
+    <string name="reduce_column_count">Μείωση αριθμού στηλών</string>
+    <string name="change_cover_image">Αλλαγή εξώφυλλου φακέλου</string>
+    <string name="select_photo">Επιλογή φωτογραφίας</string>
+    <string name="use_default">Χρήση προεπιλεγμένης</string>
+    <string name="volume">Ένταση</string>
+    <string name="brightness">Φωτεινότητα</string>
+    <string name="lock_orientation">Κλείδωμα προσανατολισμού</string>
+    <string name="unlock_orientation">Ξεκλείδωμα προσανατολισμού</string>
+    <string name="change_orientation">Αλλαγή προσανατολισμού</string>
+    <string name="force_portrait">Εξαναγκασμός σε πορτρέτο</string>
+    <string name="force_landscape">Εξαναγκασμός σε τοπίο</string>
+    <string name="use_default_orientation">Χρήση προεπιλογής</string>
+    <string name="fix_date_taken">Διόρθωση ημερ. λήψης</string>
+    <string name="fixing">Διορθώνεται…</string>
+    <string name="dates_fixed_successfully">Η Ημερ. διορθώθηκε με επιτυχία</string>
+    <string name="share_resized">Διαμοιρασμός έκδοσης με αλλαγμένο μέγεθος</string>
+
+    <!-- Filter -->
+    <string name="filter_media">Φιλτράρισμα πολυμέσων</string>
+    <string name="images">Εικόνες</string>
+    <string name="videos">Βίντεο</string>
+    <string name="gifs">GIFs</string>
+    <string name="raw_images">RAW Εικόνες</string>
+    <string name="svgs">SVGs</string>
+    <string name="no_media_with_filters">Δεν βρέθηκε κανένα αρχείο πολυμέσων με τα επιλεγμένα φίλτρα.</string>
+    <string name="change_filters_underlined"><u>Αλλαγή φίλτρων</u></string>
+
+    <!-- Hide / Exclude -->
+    <string name="hide_folder_description">Αυτή η λειτουργία κρύβει τον φάκελο προσθέτοντας ένα \".nomedia\" αρχείο μέσα του, θα κρύψει και όλους τους υποφακέλους επίσης. Μπορείτε να τους δείτε με την επιλογή του \'Εμφάνιση κρυφών δεδομένων\' στις Ρυθμίσεις. Συνέχεια?</string>
+    <string name="exclude">Εξαίρεση</string>
+    <string name="excluded_folders">Εξαίρεση φακέλων</string>
+    <string name="manage_excluded_folders">Διαχείριση εξαιρεμένων φακέλων</string>
+    <string name="exclude_folder_description">Αυτό θα εξαιρέσει το επιλεγμένο μαζί με τους υποφακέλους από το %s μόνο. Μπορείτε να διαχειριστείτε τους φακέλους που εξαιρέθηκαν στις Ρυθμίσεις.</string>
+    <string name="exclude_folder_parent">Να εξαιρεθεί μήπως ο γονικός φάκελος;</string>
+    <string name="excluded_activity_placeholder">Εξαιρώντας τους φακέλους, θα τους αποκρύψει μαζί με τους υποφακέλους τους μόνο στο %s, θα είναι ορατοί στις υπόλοιπες εφαρμογές.\n\nΑν θέλετε να τους αποκρύψετε και στις υπόλοιπες εφαρμογές, χρησιμοποιήστε την λειτουργία Απόκρυψη.</string>
+    <string name="remove_all">Διαγραφή όλων</string>
+    <string name="remove_all_description">Να αφαιρεθούν όλοι οι φάκελοι από την λίστα των εξαιρεμένων; Αυτό δεν θα διαγράψει τους φακέλους.</string>
+    <string name="hidden_folders">Κρυφοί φάκελοι</string>
+    <string name="manage_hidden_folders">Διαχείριση κρυφών φακέλων</string>
+    <string name="hidden_folders_placeholder">Φαίνεται πως δεν υπάρχουν κρυφοί φάκελοι με \".nomedia\" αρχείο.</string>
+
+    <!-- Include folders -->
+    <string name="include_folders">Φάκελοι που συμπεριλαμβάνονται</string>
+    <string name="manage_included_folders">Διαχείριση φακέλων που συμπεριλαμβάνονται</string>
+    <string name="add_folder">Προσθήκη φακέλου</string>
+    <string name="included_activity_placeholder">Αν υπάρχουν κάποιοι φάκελοι που περιέχουν πολυμέσα, αλλά δεν αναγνωρίζονται από την εφαρμογή,  μπορείτε να τους προσθέσετε χειροκίνητα εδώ.\n\nΗ προσθήκη στοιχείων εδώ, δεν θα εξαιρέσει κάποιον άλλο φάκελο.</string>
+
+    <!-- Resizing -->
+    <string name="resize">Αλλαγή μεγέθους</string>
+    <string name="resize_and_save">Αλλαγή μεγέθους και αποθήκευση</string>
+    <string name="width">Πλάτος</string>
+    <string name="height">Ύψος</string>
+    <string name="keep_aspect_ratio">Διατήρηση αναλογίας</string>
+    <string name="invalid_values">Παρακαλώ εισάγετε σωστή ανάλυση</string>
+
+    <!-- Editor -->
+    <string name="editor">Επεξεργαστής</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="rotate">Περιστροφή</string>
+    <string name="path">Διαδρομή</string>
+    <string name="invalid_image_path">Μη έγκυρη διαδρομή εικόνας</string>
+    <string name="image_editing_failed">Η επεξεργασία εικόνας απέτυχε</string>
+    <string name="edit_image_with">Επεξεργασία εικόνας με:</string>
+    <string name="no_editor_found">Δεν βρέθηκε επεργαστής εικόνων</string>
+    <string name="unknown_file_location">Άγνωστη τοποθεσία αρχείου</string>
+    <string name="error_saving_file">Δεν ήταν δυνατή η αντικατάσταση του αρχείου πηγής</string>
+    <string name="rotate_left">Περιστροφή αριστερά</string>
+    <string name="rotate_right">Περιστροφή δεξιά</string>
+    <string name="rotate_one_eighty">Περιστροφή κατά 180º</string>
+    <string name="flip">Αναποδογύρισμα</string>
+    <string name="flip_horizontally">Οριζόντιο αναποδογύρισμα</string>
+    <string name="flip_vertically">Κατακόρυφο αναποδογύρισμα</string>
+    <string name="free_aspect_ratio">Ελεύθερο</string>              <!-- available as an option: 1:1, 4:3, 16:9, free -->
+    <string name="other_aspect_ratio">Άλλο</string>                <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
+
+    <!-- Set wallpaper -->
+    <string name="simple_wallpaper">Simple Wallpaper</string>
+    <string name="set_as_wallpaper">Εφαρμογή ως ταπετσαρία</string>
+    <string name="set_as_wallpaper_failed">Η εφαρμογή ως ταπετσαρία απέτυχε</string>
+    <string name="set_as_wallpaper_with">Εφαρμογή ως ταπετσαρία με:</string>
+    <string name="setting_wallpaper">Η ταπετσαρία εφαρμόζεται...</string>
+    <string name="wallpaper_set_successfully">Η ταπετσαρία εφαρμόστηκε</string>
+    <string name="portrait_aspect_ratio">Αναλογία σε κατακόρυφη προβολή</string>
+    <string name="landscape_aspect_ratio">Αναλογία σε οριζόντια προβολή</string>
+    <string name="home_screen">Αρχική οθόνη</string>
+    <string name="lock_screen">Οθόνη κλειδώματος</string>
+    <string name="home_and_lock_screen">Αρχική οθόνη και κλειδώματος</string>
+
+    <!-- Slideshow -->
+    <string name="slideshow">Παρουσίαση διαφανιών</string>
+    <string name="interval">Χρόνος επανάληψης (δευτ.) :</string>
+    <string name="include_photos">Συμπερίληψη φωτογραφιών</string>
+    <string name="include_videos">Συμπερίληψη βίντεο</string>
+    <string name="include_gifs">Συμπερίληψη GIFs</string>6
+    <string name="random_order">Τυχαία σειρά</string>
+    <string name="use_fade">Εφέ σταδιακής αλλαγής</string>
+    <string name="move_backwards">Κίνηση προς τα πίσω</string>
+    <string name="loop_slideshow">Επανάληψη εμφάνισης διαφανιών</string>
+    <string name="slideshow_ended">Η εμφάνιση διαφανειών τελείωσε</string>
+    <string name="no_media_for_slideshow">Δεν βρέθηκαν πολυμέσα για την εμφάνιση διαφανειών</string>
+    <string name="use_crossfade_animation">Χρήση κίνησης εικόνων με διαγώνιο ξεθώριασμα</string>
+
+    <!-- View types -->
+    <string name="change_view_type">Αλλαγή τύπου εμφάνισης</string>
+    <string name="grid">Πλέγμα</string>
+    <string name="list">Λίστα</string>
+    <string name="group_direct_subfolders">Ομαδοποίηση υποφακέλων</string>
+
+    <!-- Grouping at media thumbnails -->
+    <string name="group_by">Ομαδοποίηση κατά</string>
+    <string name="do_not_group_files">Χωρίς</string>
+    <string name="by_folder">Φάκελο</string>
+    <string name="by_last_modified">Τελευταία τροπ/ηση</string>
+    <string name="by_date_taken">Ημερομ. λήψης</string>
+    <string name="by_file_type">Τύπο αρχείου</string>
+    <string name="by_extension">Επέκταση</string>
+    <string name="grouping_and_sorting">Σημειώστε ότι ομαδοποίηση και ταξινόμηση είναι 2 ανεξάρτητα πεδία</string>
+
+    <!-- Widgets -->
+    <string name="folder_on_widget">Εμφάνιση φακέλου στο widget:</string>
+    <string name="show_folder_name">Εμφάνιση ονόματος φακέλου</string>
+
+    <!-- Settings -->
+    <string name="autoplay_videos">Αυτόματη αναπαραγωγή βίντεο</string>
+    <string name="remember_last_video_position">Απομνημόνευση της τελευταίας θέσης αναπαραγωγής βίντεο</string>
+    <string name="toggle_filename">Αλλαγή προβολής ονόματος αρχείων</string>
+    <string name="loop_videos">Επανάληψη βίντεο</string>
+    <string name="animate_gifs">Εμφάνιση κινούμενων GIFs στα εικονίδια</string>
+    <string name="max_brightness">Μέγιστη φωτεινότητα κατά την προβολή πλήρους οθόνης</string>
+    <string name="crop_thumbnails">Κόψιμο εικονιδίων σε τετράγωνα</string>
+    <string name="show_thumbnail_video_duration">Εμφάνιση διάρκειας βίντεο</string>
+    <string name="screen_rotation_by">Περιστροφή σε πλήρη οθόνη απο</string>
+    <string name="screen_rotation_system_setting">Ρυθμίσεις συστήματος</string>
+    <string name="screen_rotation_device_rotation">Περιστροφή συσκευής</string>
+    <string name="screen_rotation_aspect_ratio">Αναλογία εικόνας</string>
+    <string name="black_background_at_fullscreen">Μαύρο φόντο και μπάρα κατάστασης σε πλήρη οθόνη</string>
+    <string name="scroll_thumbnails_horizontally">Κύλιση εικονιδίων οριζόντια</string>
+    <string name="hide_system_ui_at_fullscreen">Αυτόματη απόκρυψη στοιχείων συστήματος σε πλήρη οθόνη</string>
+    <string name="delete_empty_folders">Διαγραφή άδειων φακέλων, όταν διαγραφεί το περιεχόμενό τους</string>
+    <string name="allow_photo_gestures">Να επιτρέπεται ο έλεγχος φωτεινότητας με κατακόρυφες κινήσεις</string>
+    <string name="allow_video_gestures">Να επιτρέπεται ο έλεγχος έντασης του βίντεο και φωτεινότητας με κατακόρυφες κινήσεις (gestures)</string>
+    <string name="show_media_count">Εμφάνιση του αριθμού πολυμέσων στον φάκελο, στην κύρια οθόνη</string>
+    <string name="show_extended_details">Εμφάνιση λεπτομερειών στα πολυμέσα σε κατάσταση πλήρους οθόνης</string>
+    <string name="manage_extended_details">Διαχείριση εκτεταμένων λεπτομερειών</string>
+    <string name="one_finger_zoom">Να επιτρέπεται μεγένθυση με ένα δάχτυλο σε πλήρη οθόνη</string>
+    <string name="allow_instant_change">Να επιτρέπεται η άμεση αλλαγή των μέσων με το άγγιγμα στις άκρες της οθόνης</string>
+    <string name="allow_deep_zooming_images">Επιτρέπει βαθύ ζουμ στις εικόνες</string>
+    <string name="hide_extended_details">Απόκρυψη λεπτομερειών όταν η μπάρα κατάστασης είναι κρυμμένη</string>
+    <string name="show_at_bottom">Εμφάνιση μερικών κουμπιών λειτουργιών στο κάτω μέρος της οθόνης</string>
+    <string name="show_recycle_bin">Εμφάνιση του κάδου ανακύκλωσης στην οθόνη φακέλων</string>
+    <string name="deep_zoomable_images">Βαθιά μεγέθυνση εικόνων</string>
+    <string name="show_highest_quality">Εμφάνιση εικόνων με την υψηλότερη δυνατή ποιότητα</string>
+    <string name="show_recycle_bin_last">Εμφάνιση του Κάδου ως τελευταίο στοιχείο στην κύρια οθόνη</string>
+    <string name="allow_down_gesture">Επιτρέψτε το κλείσιμο προβολής πλήρους οθόνης με χειρονομία προς τα κάτω</string>
+    <string name="allow_one_to_one_zoom">Επιτρέπει μεγέθυνση 1:1 με δύο διπλά χτυπήματα</string>
+    <string name="open_videos_on_separate_screen">Να ανοίγονται πάντα τα βίντεο σε ξεχωριστή οθόνη με νέες οριζόντιες χειρονομίες</string>
+    <string name="show_notch">Εμφάνιση μιας εγκοπής αν διατίθεται</string>
+    <string name="allow_rotating_gestures">Επιτρέπει την περιστροφή εικόνων με χειρονομίες</string>
+    <string name="file_loading_priority">Προτεραιότητα φόρτωσης αρχείου</string>
+    <string name="speed">Ταχύτητα</string>
+    <string name="compromise">Συμβιβασμός</string>
+    <string name="avoid_showing_invalid_files">Αποφυγή εμφάνισης μη έγκυρων αρχείων</string>
+
+    <!-- Setting sections -->
+    <string name="thumbnails">Εικονίδια</string>
+    <string name="fullscreen_media">Πολυμέσα πλήρους οθόνης</string>
+    <string name="extended_details">Περισσότερες λεπτομέρειες</string>
+    <string name="bottom_actions">Λειτουργίες στο κάτω μέρος</string>
+
+    <!-- Bottom actions -->
+    <string name="manage_bottom_actions">Διαχείρηση εμφάνισης λειτουργιών</string>
+    <string name="toggle_favorite">Εναλλαγή αγαπημένων</string>
+    <string name="toggle_file_visibility">Εναλλαγή προβολής αρχείου</string>
+
+</resources>

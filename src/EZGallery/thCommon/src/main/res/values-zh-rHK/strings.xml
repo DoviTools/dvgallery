@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">反饋</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">喜歡「%s」嗎？ </string>
+    <string name="th_dialog_msg_rate_stars">給我們反饋，我們將盡力優化！ </string>
+    <string name="th_dialog_msg_rate_stars_5_stars">非常感謝，請給我們打分鼓勵一下！</string>
+    <string name="th_toast_rate_stars_not_rated">請點擊星星來打分。</string>
+    <string name="submit">提交</string>
+</resources>

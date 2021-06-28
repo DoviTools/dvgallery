@@ -1,0 +1,10 @@
+<resources>
+    <string name="feedback">피드백</string>
+
+    <!-- RateStarsDialogFragment -->
+    <string name="th_dialog_title_rate_stars">%s가 마음에 드시나요?</string>
+    <string name="th_dialog_msg_rate_stars">여러분의 피드백은 앱 개선에 적극적으로 반영됩니다.</string>
+    <string name="th_dialog_msg_rate_stars_5_stars">감사합니다. 평가해 주시면 저희에게 힘이 됩니다.</string>
+    <string name="th_toast_rate_stars_not_rated">별을 탭하여 평가해 주세요.</string>
+    <string name="submit">제출</string>
+</resources>
